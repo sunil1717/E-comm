@@ -1,5 +1,4 @@
 import React from 'react'
-import { Routes, Route } from 'react-router-dom'
 import About from './Pages/About'
 import Collection from './Pages/Collection'
 import Contact from './Pages/Contact'
@@ -13,6 +12,7 @@ import Footer from './Components/Footer'
 import Searchbar from './Components/Searchbar'
 import { ToastContainer, toast } from 'react-toastify';
 import Base from './Pages/Base'
+import { Routes, Route } from 'react-router-dom'
 
 
 const App = () => {
