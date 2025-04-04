@@ -1,5 +1,5 @@
 import React from 'react'
-import Collection from './Pages/Collection'
+import Collection from './Pages/Collection.jsx'
 import Contact from './Pages/Contact'
 import Product from './Pages/Product'
 import Cart from './Pages/Cart'
