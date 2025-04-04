@@ -5,7 +5,7 @@ import Bestseller from '../Components/Bestseller'
 import Ourpolicy from '../Components/Ourpolicy'
 import Newsletterbox from '../Components/Newsletterbox'
 
-const Home = () => {
+const Base= () => {
   
   
   return (
@@ -22,4 +22,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Base

@@ -1,7 +1,5 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Home from './Pages/Home'
-
 import About from './Pages/About'
 import Collection from './Pages/Collection'
 import Contact from './Pages/Contact'
@@ -14,6 +12,7 @@ import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import Searchbar from './Components/Searchbar'
 import { ToastContainer, toast } from 'react-toastify';
+import Base from './Pages/Base'
 
 
 const App = () => {
@@ -24,7 +23,7 @@ const App = () => {
         <Navbar/>
         <Searchbar/>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Base />} />
         <Route path="/about" element={<About />} />
         <Route path="/collection" element={<Collection />} />
         <Route path="/contact" element={<Contact />} />
