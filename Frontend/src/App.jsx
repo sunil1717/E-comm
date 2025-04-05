@@ -9,7 +9,7 @@ import Order from './Pages/Order'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import Searchbar from './Components/Searchbar'
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify'
 import Base from './Pages/Base'
 import { Routes, Route } from 'react-router-dom'
 import About from './Pages/About'
