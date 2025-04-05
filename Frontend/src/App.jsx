@@ -1,5 +1,5 @@
 import React from 'react'
-import Collection from './Pages/Collection'
+
 import Contact from './Pages/Contact'
 import Product from './Pages/Product'
 import Cart from './Pages/Cart'
@@ -13,10 +13,11 @@ import { ToastContainer} from 'react-toastify'
 import Base from './Pages/Base'
 import { Routes, Route } from 'react-router-dom'
 import About from './Pages/About' 
+import Collection from './Pages/Collection'
 
 const App = () => {
 
-  
+
   return (
     <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] ">
 
