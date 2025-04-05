@@ -9,7 +9,7 @@ import Productitem from '../Components/Productitem'
 
 
 
-const Collection = () => {
+const COLLECTION = () => {
 
   const{ products,search ,showsearchbar} =useContext(shopcontext);
   const [showfilter, setshowfilter] = useState(false)
@@ -151,4 +151,4 @@ const sortprice = (e) => {
   )
 }
 
-export default Collection
+export default COLLECTION
