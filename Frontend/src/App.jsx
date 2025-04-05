@@ -13,7 +13,7 @@ import { ToastContainer} from 'react-toastify'
 import Base from './Pages/Base'
 import { Routes, Route } from 'react-router-dom'
 import About from './Pages/About' 
-import Collection from './Pages/Collection'
+import Collection from "./Pages/Collection"
 
 const App = () => {
 
