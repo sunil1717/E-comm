@@ -13,7 +13,8 @@ import { ToastContainer} from 'react-toastify'
 import Base from './Pages/Base'
 import { Routes, Route } from 'react-router-dom'
 import About from './Pages/About' 
-import Collection from "./Pages/COLLECTION"
+
+import COLLECTION from './Pages/COLLECTION'
 
 const App = () => {
 
@@ -27,7 +28,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Base />} />
         <Route path="/about" element={<About />} />
-        <Route path="/collection" element={<Collection />} />
+        <Route path="/collection" element={<COLLECTION />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/product/:productid" element={<Product />} />
         <Route path="/cart" element={<Cart />} />
